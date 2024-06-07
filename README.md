@@ -4,7 +4,9 @@ Git is a free and open source distributed version control system designed to han
 
 * **_MacOS_**
   - Method 1: using Homebrew
-    + Step 1: first download the Homebrew from its [Official Website](https://www.git-scm.com/downloads), executing the command "brew --version" on terminal to verify whether the homebrew is succefully installed. Once the installation succeeds, the terminal will output the current version number.
+    + Step 1: first download the Homebrew from its [Official Website](https://www.git-scm.com/downloads),
+      > [!NOTE]
+      > executing the command "brew --version" on terminal to verify whether the homebrew is succefully installed. Once the installation succeeds, the terminal will output the current version number.
       
       ![Verify the Installation](./Images/homebrew.png)
       
