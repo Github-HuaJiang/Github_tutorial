@@ -21,4 +21,7 @@ Git is a free and open source distributed version control system designed to han
   - the most used method: Using standalone installer
     +Step 1: Choose the [correct version](https://www.git-scm.com/download/win), normally it's the 64-bit version.
 
-    ![Win bit64]()
+    ![Win bit64](Windows_64bit.png)
+
+    +Step 2: Click on the downloaded file to start the installation. Proceed with the default settings until the installation is complete.
+    +Step 3: Right-click your mouse in empty area, and you'll see a new "Git Bash" option in the menu.
