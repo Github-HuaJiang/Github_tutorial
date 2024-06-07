@@ -4,10 +4,21 @@ Git is a free and open source distributed version control system designed to han
 
 * **_MacOS_**
   - Method 1: using Homebrew
-    + Step 1: first download the Homebrew from its [Official Website](https://www.git-scm.com/downloads),
-      > [!NOTE]
-      > executing the command "brew --version" on terminal to verify whether the homebrew is succefully installed. Once the installation succeeds, the terminal will output the current version number.
+    + Step 1: download the Homebrew from its [Official Website](https://www.git-scm.com/downloads).
+      >executing the command **`brew --version`** on terminal to verify whether the homebrew is succefully installed. Once the installation succeeds, the terminal will output the current version number.
       
       ![Verify the Installation](./Images/homebrew.png)
       
-    + Step 2: open the terminal and type the command "brew " to install
+    + Step 2: open the terminal and then type the command **`brew install git`** to install git
+  - Method 2: using binary installar
+    + Step 1: download the binary file on the [Official Website](https://www.git-scm.com/downloads).
+      
+      > click the binary file and follow the instructions
+      
+    + Step 2: open the terminal and upgrade the git by typing the command **`git clone https://github.com/git/git`**
+
+* **_Windows_**
+  - the most used method: Using standalone installer
+    +Step 1: Choose the [correct version](https://www.git-scm.com/download/win), normally it's the 64-bit version.
+
+    ![Win bit64]()
