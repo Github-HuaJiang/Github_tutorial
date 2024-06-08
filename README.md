@@ -89,4 +89,8 @@ Git is a free and open source distributed version control system designed to han
     * Easy to manage repositories, issues, and pull requests
     * Integrated with other GitHub services like Actions and Pages
 - **_Common Command_**
-  + 
+  + First most used command `git add "file name"` - Add file contents to the index
+    > [Git Command](https://git-scm.com/docs/git-add) gives a more detailed description
+
+    * **Command-Line**
+      
