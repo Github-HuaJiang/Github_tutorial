@@ -62,3 +62,10 @@ Git is a free and open source distributed version control system designed to han
   git config --global user.email "Your Github account's email"
   git config --list 
   ```
+- **_Create Personal Access Token(PAT)_**
+
+  It could be considered as password and sometimes is required when transporting changes between the local machines and the Github
+
+  <p align='center'>
+  <img src='./Images/configure_git.png' height='textheight'>
+  </p>
