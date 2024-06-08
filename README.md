@@ -15,8 +15,8 @@ Git is a free and open source distributed version control system designed to han
       
   - Method 2: using Binary Installar
     + Step 1: Download the binary file on the [Git Official Website](https://www.git-scm.com/downloads).
-      > click the binary file and follow the instructions
-    + Step 2: Open the terminal and upgrade the git by typing the command **`git clone https://github.com/git/git`**
+    + Step 2: Click the binary file and follow the instructions
+    + Step 3: Open the terminal and upgrade the git by typing the command **`git clone https://github.com/git/git`**
 
 * **_Windows_**
   - the most used method: using Standalone Installer
@@ -65,7 +65,28 @@ Git is a free and open source distributed version control system designed to han
 - **_Create Personal Access Token(PAT)_**
 
   It could be considered as password and sometimes is required when transporting changes between the local machines and the Github
+  > more details could be found on the [PAT](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
+
+  + Step 1: Click on the profile icon on the upper right corner of the webpage
+  + Step 2: Sequentially click on the _"Settings"_ -\> _"Developer settings"_ -\> _"Tokens(classic)"_
+  + Step 3: Follow the instructions to create PAT
 
   <p align='center'>
-  <img src='./Images/configure_git.png' width='10%'>
+    <img src='./Images/PAT1.png' width='20%'>
+    <img src='./Images/PAT2.png' width='30%'>
+    <img src='./Images/PAT3.png' width='30%'>
   </p>
+  
+## 1.4 Overview of the command-line vs. web interface usage
+
+- **_Advantages_**
+  + **command-line**
+    * Full control over Git operations
+    * Faster and more efficient for experienced users
+    * Can be scripted for automation
+  + **web interface usage**
+    * User-friendly, visual interface
+    * Easy to manage repositories, issues, and pull requests
+    * Integrated with other GitHub services like Actions and Pages
+- **_Common Command_**
+  + 
