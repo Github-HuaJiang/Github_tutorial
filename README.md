@@ -67,5 +67,5 @@ Git is a free and open source distributed version control system designed to han
   It could be considered as password and sometimes is required when transporting changes between the local machines and the Github
 
   <p align='center'>
-  <img src='./Images/configure_git.png' height='textheight'>
+  <img src='./Images/configure_git.png' height='1%'>
   </p>
