@@ -32,3 +32,10 @@ Git is a free and open source distributed version control system designed to han
 * **_Linux_**
   - Take Ubuntu as an example, more details about installation on other unix systems can be found on [Official Website](https://www.git-scm.com/downloads).
     + Step 1: Open the command line window  and execute **`apt-get install git`**
+
+      <p align='center'>
+      <img src='./Images/ubuntu.png' width='50%'>
+      </p>
+
+> [!NOTE]
+> 1. After installation, one can verify using **`git --version`** on the terminal or cmd. With displaying the version number of git, the installation is well done.
