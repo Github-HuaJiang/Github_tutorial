@@ -12,7 +12,7 @@ Git is a free and open source distributed version control system designed to han
       </p>
       
     + Step 2: Open the terminal and then type the command **`brew install git`** to install git
-      
+  
   - Method 2: using Binary Installar
     + Step 1: Download the binary file on the [Git Official Website](https://www.git-scm.com/downloads).
     + Step 2: Click the binary file and follow the instructions
