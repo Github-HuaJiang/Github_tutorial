@@ -1,5 +1,5 @@
 # Chapter 1. Setting up the Git
-## 1.1 installing Git
+## 1.1 Install Git
 Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git could be downloaded in different operatinng systems.
 
 * **_MacOS_**
@@ -44,11 +44,21 @@ Git is a free and open source distributed version control system designed to han
     </p>
 > 2. Actually, I haven't personally tested it on Windows and Linux, but most online tutorials suggest a similar approach, so it should be fine.
 
-## 1.2 Creating a Github Account
+## 1.2 Create a Github Account
 - Step 1: Use email to register on the [Github Official Website](https://github.com/)
 - Step 2: click on the profile icon at the upper right corner of the webpage you'll see the menu
 - Step 3: click on the _"Your Profile"_ to view the information. The interface is similar when viewing someone else's profile page.
 
   <p align='center'>
-  <img src='./Images/ubuntu.png', width='70%'>
+  <img src='./Images/github_account.png', width='70%'>
   </p>
+
+## 1.3 Configure Git
+- **_Basic Setup_**
+  
+  configure the name and email to create connection between the local machine and the Github by type the following code on terminal or cmd
+  ```
+  git config --global user.name "Your Github account's name"
+  git config --global user.email "Your Github account's email"
+  git config --list 
+  ```
