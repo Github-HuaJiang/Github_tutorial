@@ -94,20 +94,32 @@ Git is a free and open source distributed version control system designed to han
     
     * **Command-Line**
 
-    <p align='center'>
-    <img src='./Images/git_add.png' width='50%'>
-    </p>
+      <p align='center'>
+      <img src='./Images/git_add.png' width='50%'>
+      </p>
 
-    First, create a new file, for example, _"New_Text.rtf"_ (shown in the first red box), and then you can add it using `git add`. After adding you can see the added file     is ready to be commited(shown in the second red box). In fact, any changes can be added, such as modifications to an existing file or the deletion.
+      First, create a new file, for example, _"New_Text.rtf"_ (shown in the first red box), and then you can add it using `git add`. After adding you can see the added file     is ready to be commited(shown in the second red box). In fact, any changes can be added, such as modifications to an existing file or the deletion.
 
     * **Web Interface**
 
-    <p align='center'>
-    <img src='./Images/web_add1.png' width='45%'>
-    <img src='./Images/web_add2.png' width='45%'>
-    </p>
+      <p align='center'>
+      <img src='./Images/web_add1.png' width='45%'>
+      <img src='./Images/web_add2.png' width='45%'>
+      </p>
       
-    Adding files via the web interface is more straightforward. First, navigate to the folder where you want to add files, and then click _"Add files"_(shown in the upper right corner of the left image). At this point, you can choose to upload files (either one by one or by dragging and dropping multiple files simultaneously). The uploaded files will appear below the upload area(shown in the red box of the right image).
+      Adding files via the web interface is more straightforward. First, navigate to the folder where you want to add files, and then click _"Add files"_(shown in the upper right corner of the left image). At this point, you can choose to upload files (either one by one or by dragging and dropping multiple files simultaneously). The uploaded files will appear below the upload area(shown in the red box of the right image).
 
   + Second most used command `git commit -m "message"` - Record changes to the repository
+
+    * **Command-Line**
+
+      <p align='center'>
+      <img src='./Images/git_commit.png' width='50%'>
+      </p>
+
+      After adding the changes, you can use `git commit` to confirm them. In my case, I simply record the change of adding a new file by using the `git commit -m "add new_text"`. After this commit, the changes is recorded in the local repository.
+      
+      Leave a good message can always help you recall what changes were recorded in this step later. Since the commit operation can be tracked, the value in the red box is the commit ID.
+
+    * **Web Interface**
       
