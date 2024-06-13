@@ -98,5 +98,5 @@ Git is a free and open source distributed version control system designed to han
     <img src='./Images/git_add.png' width='50%'>
     </p>
 
-    test
+    First create a new file for example "New_Text.rtf", and then git add it
       
