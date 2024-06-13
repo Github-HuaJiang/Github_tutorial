@@ -129,4 +129,15 @@ Git is a free and open source distributed version control system designed to han
 
       Committing changes on the website is also straightforward. After making changes to the repository (e.g., adding a photo in my case), write a message in the message box, and finally click _"Commit changes."_ After that, the changes are recorded on the Github Repository.
 
-  + Third Operation `git rm "file"` -
+  + Third Operation `git rm "file"` - Remove files from the working tree and from the index
+
+    * **Command-Line**
+ 
+      <p>
+      <img src='./Images/git_delete1.png' width='45%'>
+      <img src='./Images/git_delete2.png' width='45%'>
+      </p>
+      
+      Sometimes you may want to delete a file that has been wrongly committed. In such cases, you can use the command `git rm --cached 'file'`. This command will remove the file from the index area without affecting the file in your working directory (local). After executing this command, you'll notice that the status of the deleted file changes back to "untracked"(in the second red box of the left image), indicating that Git no longer tracks this file. Then, you can commit to record this deletion(shown in the right image).
+      
+    * **Web Interface**
