@@ -122,4 +122,11 @@ Git is a free and open source distributed version control system designed to han
       Leave a good message can always help you recall what changes were recorded in this step later. Since the commit operation can be tracked, the value in the red box is the commit ID.
 
     * **Web Interface**
-      
+
+      <p align='center'>
+      <img src='./Images/web_commit.png' width='50%'>
+      </p>
+
+      Committing changes on the website is also straightforward. After making changes to the repository (e.g., adding a photo in my case), write a message in the message box, and finally click _"Commit changes."_ After that, the changes are recorded on the Github Repository.
+
+  + Third Operation `git rm "file"` -
