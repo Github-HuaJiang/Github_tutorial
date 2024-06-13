@@ -141,3 +141,10 @@ Git is a free and open source distributed version control system designed to han
       Sometimes you may want to delete a file that has been wrongly committed. In such cases, you can use the command `git rm --cached 'file'`. This command will remove the file from the index area without affecting the file in your working directory (local). After executing this command, you'll notice that the status of the deleted file changes back to "untracked"(in the second red box of the left image), indicating that Git no longer tracks this file. Then, you can commit to record this deletion(shown in the right image).
       
     * **Web Interface**
+
+      <p>
+      <img src='./Images/web_delete1.png' width='45%'>
+      <img src='./Images/web_delete2.png' width='45%'> 
+      </p>
+
+      Deleting files using the web interface is also straightforward (though this typically deletes files from the working directory). First, select the file you want to delete. Then, click the menu button in the upper right corner of the left image. From the dropdown menu, select "delete file." Finally, click "commit changes" of the right image and confirm the action to complete the deletion.
