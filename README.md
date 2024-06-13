@@ -98,5 +98,9 @@ Git is a free and open source distributed version control system designed to han
     <img src='./Images/git_add.png' width='50%'>
     </p>
 
-    First create a new file for example "New_Text.rtf", and then git add it
+    First, create a new file, for example, "New_Text.rtf" (shown in the first red box), and then you can add it using `git add`. After adding you can see the added file     is ready to be commited(shown in the second red box). In fact, any changes can be added, such as modifications to an existing file or the deletion.
+
+    * **Web Interface**
+      
+    Adding files via the web interface is more straightforward. First, navigate to the folder where you want to add files, and then click "Add files." At this point,  you can choose to upload files (either one by one or by dragging and dropping multiple files simultaneously). The uploaded files will appear below the upload area.
       
