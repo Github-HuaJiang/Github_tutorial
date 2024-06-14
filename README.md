@@ -80,14 +80,19 @@ Git is a free and open source distributed version control system designed to han
 ## 1.4 Overview of the command-line vs. web interface usage
 
 - **_Advantages_**
+  
   + **command-line**
+    
     * Full control over Git operations
     * Faster and more efficient for experienced users
     * Can be scripted for automation
+      
   + **web interface usage**
+    
     * User-friendly, visual interface
     * Easy to manage repositories, issues, and pull requests
     * Integrated with other GitHub services like Actions and Pages
+      
 - **_Common Command_**
   > [Git Command](https://git-scm.com/docs/git-add) gives a more detailed description
   + First most used command `git add "file name"` - Add file contents to the index
@@ -132,11 +137,12 @@ Git is a free and open source distributed version control system designed to han
   + Third Operation `git rm "file"` - Remove files from the working tree and from the index
 
     * **Command-Line**
- 
+      
       <p>
-      <img src='./Images/git_delete1.png' width='45%'>
-      <img src='./Images/git_delete2.png' width='45%'>
+      <img src='./Images/git_delete1.png' width='40%'>
+      <img src='./Images/git_delete2.png' width='40%'>
       </p>
+      
       
       Sometimes you may want to delete a file that has been wrongly committed. In such cases, you can use the command `git rm --cached 'file'`. This command will remove the file from the index area without affecting the file in your working directory (local). After executing this command, you'll notice that the status of the deleted file changes back to "untracked"(in the second red box of the left image), indicating that Git no longer tracks this file. Then, you can commit to record this deletion(shown in the right image).
       
@@ -151,4 +157,27 @@ Git is a free and open source distributed version control system designed to han
 
   + Pull and Push
     * **Pull**
+
       When changes occur in the remote repository, you can use a pull request to synchronize these changes with your local repository.
+   
+      <p>
+        <img src='./Images/pull1.png' width='45%'>
+        <img src='./Images/pull2.png' width='45%'>
+      </p>
+
+      - Step 1: use `git remote -v` to check the remote repositories connected to your local repository.
+      - Step 2: use `git fetch origin <branch name>` to fetch the changes from the remote repository to the local one.
+      - Step 3: use `git merge origin/<branch name>` to perform the merge.
+
+    * **Push**
+
+      When changes occur in the local repository, you can use a push request to synchronize these changes with your remote repository.
+
+      <p>
+        <img src='./Images/push1.png' width='40%' margin:5% auto>
+        <img src='./Images/push2.png' width='40%' margin:5% auto>
+      </p>
+
+      Compared to the _pull_ operation, _push_ is simpler. You can use `git push -u origin <branch name>`.
+
+      However, it is important to note that before performing a push operation (or more accurately, before making changes to the local repository), it's better to use pull to synchronize the remote repository's changes with your local repository first. From the red boxes from left to right images, you can see that the local changes have been synchronized to the remote repository.
