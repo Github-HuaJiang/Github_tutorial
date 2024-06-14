@@ -147,4 +147,8 @@ Git is a free and open source distributed version control system designed to han
       <img src='./Images/web_delete2.png' width='45%'> 
       </p>
 
-      Deleting files using the web interface is also straightforward (though this typically deletes files from the working directory). First, select the file you want to delete. Then, click the menu button in the upper right corner of the left image. From the dropdown menu, select "delete file." Finally, click "commit changes" of the right image and confirm the action to complete the deletion.
+      Deleting files using the web interface is also straightforward (though this typically deletes files from the working directory). First, select the file you want to delete. Then, click the menu button in the upper right corner of the left image. From the dropdown menu, select _"delete file."_ Finally, click _"commit changes"_ of the right image and confirm the action to complete the deletion.
+
+  + Pull and Push
+    * **Pull**
+      When changes occur in the remote repository, you can use a pull request to synchronize these changes with your local repository.
