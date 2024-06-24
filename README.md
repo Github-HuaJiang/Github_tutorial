@@ -167,10 +167,10 @@ Git is a free and open source distributed version control system designed to han
 
       - Step 1: use `git remote -v` to check the remote repositories connected to your local repository.
       - Step 2: use `git fetch origin <branch name>` to fetch the changes from the remote repository to the local one.
-        > the branch name is located in the
+        > By clicking the branch name button in the upper left corner of the repository, one can see all the branches of the repository from the drop-down menu
         
         <p align='center'>
-          <img src='./Images/pull1.png' width='50%'>
+          <img src='./Images/branch_name.png' width='50%'>
         </p>      
 
       - Step 3: use `git merge origin/<branch name>` to perform the merge.
