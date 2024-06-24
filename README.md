@@ -187,3 +187,5 @@ Git is a free and open source distributed version control system designed to han
       Compared to the _pull_ operation, _push_ is simpler. You can use `git push -u origin <branch name>`.
 
       However, it is important to note that before performing a push operation (or more accurately, before making changes to the local repository), it's better to use pull to synchronize the remote repository's changes with your local repository first. From the red boxes from left to right images, you can see that the local changes have been synchronized to the remote repository.
+
++ **Basic Workflow**
