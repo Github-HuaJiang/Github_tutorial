@@ -194,4 +194,44 @@ Git is a free and open source distributed version control system designed to han
 
 - **_Basic Workflow_**
   + **Example 1: Upload Loacl Project to the Empty Repo on Github**
-    * Step 1: Open the command line in the directory of your project files and execute the initialization command `git init -b main`(left image). At this point, it creates a local branch named main and you'll see a _.git_ file in the directory(right image). This indicates that the project is now ready for Git operations. This file is by default a hidden file and typically do not need to be modified.
+    * Step 1: Open the command line in the directory of your project files and execute the initialization command `git init -b main`(left image).
+     > At this point, it creates a local branch named main and you'll see a _.git_ file in the directory(right image). This indicates that the project is now ready for Git operations. This file is by default a hidden file and typically do not need to be modified.
+
+      <p align='center'>
+        <img src='./Images/ex1_git_init.png' width='45%'>
+        <img src='./Images/git_file.png' width='45%'>
+      </p>
+      
+    * Step 2: add and commit all local files through command `git add .` and `git commit -m 'initialization'`
+
+      <p align='center'>
+        <img src='./Images/ex1_git_add.png' width='45%'>
+        <img src='./Images/ex1_git_commit.png' width='45%'>
+      </p>
+
+    * Step 3: create an remote empty repository on Github(left image) and then connect the local project to the remote empty repository by command `git remote add origin <Http Address>`(right image).
+      > Through the command `git remote -v` you will find connection is sucessfully constructed, as remote branch is outputed.
+
+      <p align='center'>
+        <img src='./Images/new_repo.png' width='45%'>
+        <img src='./Images/ex1_git_remote_add.png' width='45%'>
+      </p>
+
+    * Step 4: Before push the local project to the remote end, it's always safe to synchonize the local repository with the remote ones at first. Usually perform the pull by `git pull origin <branch name>`, but in my case there also occurs a problem, which solved by the command `git config pull.ff true` and `git pull origin main --allow-unrelated-histories`(left image). Hier is the details about the explanation for [allow-unrelated-histories](https://stackoverflow.com/questions/37937984/git-refusing-to-merge-unrelated-histories-on-rebase) and [pull.ff](https://stackoverflow.com/questions/62653114/how-can-i-deal-with-this-git-warning-pulling-without-specifying-how-to-reconci).
+      > This point may also require GCM to manage the connection(middle image), where you can use your Github account to log in to avoid PAT. That the README file is downloaded from Github to the local directory also indicates pull is performed(right image).
+      
+      <p align='center'>
+        <img src='./Images/ex1_git_pull.png' width='30%'>
+        <img src='./Images/gcm.png' width='30%'>
+        <img src='./Images/pull_2local.png' width='30%'>
+      </p> 
+      
+  * Step 5: upload the local project to the remote empty repository by `git push -u origin main` (left image) and result is showed in right image.
+
+     <p align='center'>
+        <img src='./Images/ex1_git_push.png' width='45%'>
+        <img src='./Images/push_2remote.png' width='45%'>
+      </p> 
+
+     
+      
