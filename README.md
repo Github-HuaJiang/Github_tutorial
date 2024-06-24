@@ -76,6 +76,10 @@ Git is a free and open source distributed version control system designed to han
     <img src='./Images/PAT2.png' width='30%'>
     <img src='./Images/PAT3.png' width='30%'>
   </p>
+
+- **_GIT Credential Manager(GCM)_**
+
+  However, the PAT has an expiration date and often requires manual input, which can be inconvenient. Therefore, you can use GCM to connect to GitHub over HTTP. Hier is the link [GCM](https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git?platform=mac) about installing GCM on different operating systems.
   
 ## 1.4 Overview of the command-line vs. web interface usage
 
@@ -188,4 +192,6 @@ Git is a free and open source distributed version control system designed to han
 
       However, it is important to note that before performing a push operation (or more accurately, before making changes to the local repository), it's better to use pull to synchronize the remote repository's changes with your local repository first. From the red boxes from left to right images, you can see that the local changes have been synchronized to the remote repository.
 
-+ **Basic Workflow**
+- **_Basic Workflow_**
+  + **Example 1: Upload Loacl Project to the Empty Repo on Github**
+    * Step 1: Open the command line in the directory of your project files and execute the initialization command `git init -b main`(left image). At this point, it creates a local branch named main and you'll see a _.git_ file in the directory(right image). This indicates that the project is now ready for Git operations. This file is by default a hidden file and typically do not need to be modified.
