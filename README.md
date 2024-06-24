@@ -167,6 +167,12 @@ Git is a free and open source distributed version control system designed to han
 
       - Step 1: use `git remote -v` to check the remote repositories connected to your local repository.
       - Step 2: use `git fetch origin <branch name>` to fetch the changes from the remote repository to the local one.
+        > the branch name is located in the
+        
+        <p align='center'>
+          <img src='./Images/pull1.png' width='50%'>
+        </p>      
+
       - Step 3: use `git merge origin/<branch name>` to perform the merge.
 
     * **Push**
@@ -174,8 +180,8 @@ Git is a free and open source distributed version control system designed to han
       When changes occur in the local repository, you can use a push request to synchronize these changes with your remote repository.
 
       <p>
-        <img src='./Images/push1.png' width='40%' margin:5% auto>
-        <img src='./Images/push2.png' width='40%' margin:5% auto>
+        <img src='./Images/push1.png' width='45%'>
+        <img src='./Images/push2.png' width='45%'>
       </p>
 
       Compared to the _pull_ operation, _push_ is simpler. You can use `git push -u origin <branch name>`.
