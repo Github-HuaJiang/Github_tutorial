@@ -282,9 +282,19 @@ Forking a repository means creating a personal copy of someone else's repository
 ## 2.4 Understanding the .gitignore file and its importance
 the .gitignore file will tell Git which types of files it should ignore or more exactly not commit to the code repository. By doing so, it has several advantages. For instance, it can prevented  sensitive information (like passwords) from being committed, keep unnecessary files (e.g., build files, temporary files) out of the repository and improve collaboration by avoiding unnecessary merge conflicts.
 
-If you forget to configure the .gitignore file when creating the repository, it's still possible to create a .gitignore file later and add it to the repository using the command line. Assume we have a local repository without the .gitignore file(shown in the left images below), first open the terminal or cmd under the repository's directory and then run the command **`touch .gitignore`**, it will create a new .gitignore file. In macOS, this file is usually hidden, so you need to make it visible in order to see it.
+If you forget to configure the .gitignore file when creating the repository, it's still possible to create a .gitignore file later and add it to the repository using the command line. Assume we have a local repository without the .gitignore file(shown in the left images below), first open the terminal or cmd under the repository's directory and then run the command **`touch .gitignore`**, it will create a new .gitignore file(shown in the right image below). In macOS, this file is usually hidden, so you need to make it visible in order to see it.
 
 <p align='center'>
-      <img src='./Images/fork3.png' width='70%'>
+      <img src='./Images/gitignore1.png' width='31%'>
+      <img src='./Images/gitignore2.png' width='31%'>
+      <img src='./Images/gitignore3.png' width='31%'>
     </p>
+    
+The .gitignore file is a blank text file(shown in the left image below), so you can directly enter the file types you want to ignore. The format is **`*.extension`**, which will automatically ignore all files of that type.
 
+<p align='center'>
+      <img src='./Images/ignore1.png' width='45%'>
+      <img src='./Images/ignore2.png' width='45%'>
+    </p>
+    
+ For instance, if we type the **`*.pptx`**, git would ignore this type of file, even though the powerpoint files are added to the repository. As you can see from the below images,
