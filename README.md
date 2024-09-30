@@ -240,4 +240,13 @@ Git is a free and open source distributed version control system designed to han
     <p align='center'>
         <img src='./Images/new_icon.png' width='70%'>
       </p> 
-  * Step 2: The most basic settings involve defining a name and choosing whether to make it public. Additionally, you can choose whether to add a README file and configure a .gitignore (which will be discussed later).
+      
+  * Step 2: The most basic settings involve defining a name and choosing whether to make it public. Additionally, you can choose whether to add a README file and configure a .gitignore (which will be discussed later). With clicking on the **Create repository**, a new repository will be created.
+
+    <p align='center'>
+        <img src='./Images/setting.png' width='70%'>
+      </p> 
+
+## 2.2 Cloning an existing repository
+Cloning a repository means creating a local copy of an existing repostory from GitHub to your machine, where you can edit and adjust freedomly without influencing the raw code.
+  * Copy the Https Address: Open the repository to be cloned, click the **'Code'** button, and then copy the repository's HTTPS URL from the pop-up window. There's a copy button right next to the address.
