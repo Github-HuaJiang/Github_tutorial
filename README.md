@@ -297,4 +297,10 @@ The .gitignore file is a blank text file(shown in the left image below), so you 
       <img src='./Images/ignore2.png' width='45%'>
     </p>
     
- For instance, if we type the **`*.pptx`**, git would ignore this type of file, even though the powerpoint files are added to the repository. As you can see from the below images,
+For instance, if we type the **`*.pptx`**(shown in the right image above), git would ignore this type of file, even though the powerpoint files are added to the repository. As you can see from the below images, I added a Powerpoint file to the repository(in the left image below). If there are no restrictions in the .gitignore file, checking the repository status with Git shows that the added PPT file is trackable(shown in the middle image below). However, after writing *.pptx into the .gitignore file and checking the repository status again, the Powerpoint file disappears, namely, it becomes untrackable.(shown in the right image below)
+
+<p align='center'>
+      <img src='./Images/pptx1.png' width='30%'>
+      <img src='./Images/pptx2.png' width='30%'>
+      <img src='./Images/pptx3.png' width='30%'>
+    </p>
