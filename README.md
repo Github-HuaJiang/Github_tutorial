@@ -255,4 +255,12 @@ Cloning a repository means creating a local copy of an existing repostory from G
       </p> 
       
   * Download the repository to the local machine: open the terminal or cmd, navigate into the local directory where you want store the repository with the command **`cd "path of directory"
-`**, then run the command **`git clone "copied_url"`** and it will download automatically. This step is illustrated in the below image, where the **`ls`** command is used in macOS to display the files in the current directory, while the corresponding command in cmd is **`dir`**. As you can see, before cloning, the directory is empty, and after the cloning process is completed, the repository has been successfully downloaded to the directory.
+`**, then run the command **`git clone "copied_url"`** and it will download automatically. This step is illustrated in the below image, where the **`ls`** command is used in macOS to display the files in the current directory, while the corresponding command in cmd is **`dir`**. As you can see, before cloning, the directory is empty, and after the cloning process is completed, the name of repository is successfully listed after executing command **`ls`**.
+
+    <p align='center'>
+        <img src='./Images/clone2.png' width='70%'>
+      </p> 
+
+## 2.3 Forking a Repository
+Forking a repository means creating a personal copy of someone else's repository on your GitHub account. The difference between fork and clone is that fork copies the repository to your own GitHub account, while clone downloads the repository to your local machine. The method of forks is sometimes used to bug fixes.
+
