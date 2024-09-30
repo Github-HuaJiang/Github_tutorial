@@ -264,3 +264,27 @@ Cloning a repository means creating a local copy of an existing repostory from G
 ## 2.3 Forking a Repository
 Forking a repository means creating a personal copy of someone else's repository on your GitHub account. The difference between fork and clone is that fork copies the repository to your own GitHub account, while clone downloads the repository to your local machine. The method of forks is sometimes used to bug fixes.
 
+  * Step 1: Forking a repository isn't particularly complicated. Find the repository you want to fork, click the dropdown menu next to the **Fork** button(shown in the image below), and select **'Create a new fork'**.
+    <p align='center'>
+    <img src='./Images/fork1.png' width='70%'>
+  </p>
+  
+  * Step 2: In the window that pops up, you can create the fork with the default settings(shown in the image below). Once the fork is complete, you'll be able to see it under your GitHub account.
+    <p align='center'>
+        <img src='./Images/fork2.png' width='70%'>
+      </p>
+
+  * Step 3: There will also be a prompt under the repository's name that can direct you to the source code. If your forked repository becomes out of sync with the original source, you can update your fork by using the **'Sync fork'** option. Additionally, if you've made any changes, you can submit them to the original repository through the **'Contribute'** option.
+    <p align='center'>
+      <img src='./Images/fork3.png' width='70%'>
+    </p>
+
+## 2.4 Understanding the .gitignore file and its importance
+the .gitignore file will tell Git which types of files it should ignore or more exactly not commit to the code repository. By doing so, it has several advantages. For instance, it can prevented  sensitive information (like passwords) from being committed, keep unnecessary files (e.g., build files, temporary files) out of the repository and improve collaboration by avoiding unnecessary merge conflicts.
+
+If you forget to configure the .gitignore file when creating the repository, it's still possible to create a .gitignore file later and add it to the repository using the command line. Assume we have a local repository without the .gitignore file(shown in the left images below), first open the terminal or cmd under the repository's directory and then run the command **`touch .gitignore`**, it will create a new .gitignore file. In macOS, this file is usually hidden, so you need to make it visible in order to see it.
+
+<p align='center'>
+      <img src='./Images/fork3.png' width='70%'>
+    </p>
+
