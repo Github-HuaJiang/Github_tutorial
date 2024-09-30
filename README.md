@@ -250,3 +250,9 @@ Git is a free and open source distributed version control system designed to han
 ## 2.2 Cloning an existing repository
 Cloning a repository means creating a local copy of an existing repostory from GitHub to your machine, where you can edit and adjust freedomly without influencing the raw code.
   * Copy the Https Address: Open the repository to be cloned, click the **'Code'** button, and then copy the repository's HTTPS URL from the pop-up window. There's a copy button right next to the address.
+    <p align='center'>
+        <img src='./Images/clone1.png' width='70%'>
+      </p> 
+      
+  * Download the repository to the local machine: open the terminal or cmd, navigate into the local directory where you want store the repository with the command **`cd "path of directory"
+`**, then run the command **`git clone "copied_url"`** and it will download automatically. This step is illustrated in the below image, where the **`ls`** command is used in macOS to display the files in the current directory, while the corresponding command in cmd is **`dir`**. As you can see, before cloning, the directory is empty, and after the cloning process is completed, the repository has been successfully downloaded to the directory.
