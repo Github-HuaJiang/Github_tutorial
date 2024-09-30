@@ -236,3 +236,8 @@ Git is a free and open source distributed version control system designed to han
 # Chapter 2 - Basic Repository Management
 ## 2.1 Creating a new repository on Github
   * Step 1: open your Github Homepage and Click on the green colored **'New'** icon in the upper-left corner, which is showed in the below image
+    
+    <p align='center'>
+        <img src='./Images/new_icon.png' width='70%'>
+      </p> 
+  * Step 2: The most basic settings involve defining a name and choosing whether to make it public. Additionally, you can choose whether to add a README file and configure a .gitignore (which will be discussed later).
