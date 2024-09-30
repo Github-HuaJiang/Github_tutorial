@@ -1,4 +1,4 @@
-# Chapter 1. Setting up the Git
+# Chapter 1 - Setting up the Git
 ## 1.1 Install Git
 Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git could be downloaded in different operatinng systems.
 
@@ -233,5 +233,6 @@ Git is a free and open source distributed version control system designed to han
         <img src='./Images/push_2remote.png' width='45%'>
       </p> 
 
-     
-      
+# Chapter 2 - Basic Repository Management
+## 2.1 Creating a new repository on Github
+  * Step 1: open your Github Homepage and Click on the green colored **'New'** icon in the upper-left corner, which is showed in the below image
