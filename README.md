@@ -194,8 +194,38 @@ Git is a free and open source distributed version control system designed to han
       However, it is important to note that before performing a push operation (or more accurately, before making changes to the local repository), it's better to use pull to synchronize the remote repository's changes with your local repository first. From the red boxes from left to right images, you can see that the local changes have been synchronized to the remote repository.
 
 - **_Basic Workflow_**
-  + **Example 1: Upload Local Project to the Empty Repo on Github (easy way)** 
-  + **Example 2: Upload Loacl Project to the Empty Repo on Github (complex way)**
+  + **Example 1: Upload Local Project to the Empty Repo on Github (recommanded)**
+    * Step 1: create an empty repository on Github, which is illustrated in the Chapter 2.1. Hier I create a repository named **Tutorial_upload**.
+      
+    * Step 2: download the empty repository from Github to the local machine by firstly copying the corresponding Https address(shown in the left image) and then running the command **`git clone Https address`** on terminal or cmd(shown in the middle image, remember open the terminal or cmd under the directory where you want to download the repository). Afterwards you can see the downloaded empty repository in the directory(shown in the right image)
+      
+     <p align='center'>
+         <img src='./Images/repo_address.png' width='31%'>
+        <img src='./Images/download.png' width='31%'>
+        <img src='./Images/directory.png' width='31%'>
+      </p>
+
+    * Step 3: move the local project into the local empty repository
+      <p align='center'>
+        <img src='./Images/move.png'>
+      </p>
+
+    * Step 4: now it's allowed to upload the local project to the Github. By checking the status of the downloaded repository using command **`git status`**, you can find the project of **Local_Repo** trackable(shown in the left image). Next, running the command **`git add .`** and **`git commit -m 'customrized message'`** to record the changes of uploading(shown in the right image).
+      
+      <p align='center'>
+        <img src='./Images/check_status.png' width='45%'>
+        <img src='./Images/record.png' width='45%'>
+      </p>
+
+    * Step 5: With running the command **`git push -u origin main`**, the local repository is finnally and succesfully uploaded into the Github(shown in the left image). Now you can refresh the Github page to see the result in the before created repository that the local project shows there.
+
+      <p align='center'>
+        <img src='./Images/upload.png' width='45%'>
+        <img src='./Images/refresh.png' width='45%'>
+      </p>
+
+  
+  + **Example 2: Upload Loacl Project to the Empty Repo on Github (not recommanded)**
     * Step 1: Open the command line in the directory of your project files and execute the initialization command `git init -b main`(left image).
      > At this point, it creates a local branch named main and you'll see a _.git_ file in the directory(right image). This indicates that the project is now ready for Git operations. This file is by default a hidden file and typically do not need to be modified.
 
