@@ -195,7 +195,10 @@ Git is a free and open source distributed version control system designed to han
 
 - **_Basic Workflow_**
   + **Example 1: Upload Local Project to the Empty Repo on Github (recommanded)**
-    * Step 1: create an empty repository on Github, which is illustrated in the Chapter 2.1. Hier I create a repository named **Tutorial_upload**.
+    * Step 1: create an empty repository on Github, which is illustrated in the Chapter 2.1. Hier I create a repository named **Tutorial_upload**.(shown in the below image)
+      <p align='center'>
+         <img src='./Images/empty_repo.png'>
+      </p>
       
     * Step 2: download the empty repository from Github to the local machine by firstly copying the corresponding Https address(shown in the left image) and then running the command **`git clone Https address`** on terminal or cmd(shown in the middle image, remember open the terminal or cmd under the directory where you want to download the repository). Afterwards you can see the downloaded empty repository in the directory(shown in the right image)
       
